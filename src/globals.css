@@ -1,0 +1,136 @@
+.swal2-container {
+  z-index: 99999 !important; /* Always on top */
+}
+
+.swal2-popup {
+  border-radius: 18px !important;
+}
+
+.swal-custom-button {
+  background-color: #4fb7e4 !important;
+  color: white !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+.swal-custom-button:hover {
+  background-color: #3aa2cc !important;
+}
+
+/* Custom Scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Cancel Button Styling */
+.swal-cancel-button {
+  background-color: #6c757d; /* Grey color */
+  color: white !important;
+  border-radius: 8px !important;
+  padding: 10px 20px !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  border: none !important;
+  cursor: pointer !important;
+  margin-left: 5px;
+}
+
+.swal-cancel-button:hover {
+  background-color: #5a6268; /* Darker grey on hover */
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.swal-toast {
+  padding: 10px 15px !important;
+  font-size: 14px !important;
+  width: auto !important;
+  min-width: 250px !important;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.swal-toast-title {
+  font-size: 14px !important;
+  font-weight: 500;
+}
+
+.swal-custom-button {
+  background-color: #ef4444;
+  color: white;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 13px;
+  border: none;
+  margin: 5px;
+}
+
+.swal-cancel-button {
+  background-color: #e5e7eb;
+  color: #111827;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 13px;
+  border: none;
+  margin: 5px;
+}
+
+/* Bill Styles*/
+/* @media print {
+  body * {
+    visibility: hidden;
+  }
+
+  #bill-content, #bill-content * {
+    visibility: visible;
+  }
+
+  #bill-content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80mm !important;
+    max-width: 80mm !important;
+    padding: 0 !important;
+    margin: 0 auto;
+    font-size: 11px;
+  }
+
+  button {
+    display: none !important;
+  }
+} */
+
+
+/* Hide number input arrows */
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinner {
+  -moz-appearance: textfield; /* Firefox */
+}
