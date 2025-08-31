@@ -11,7 +11,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.2",
     "@tanstack/react-query": "^5.66.0",
-    "apexcharts": "^3.46.0",
+    "apexcharts": "^4.0.0",
     "axios": "^1.7.9",
     "cors": "^2.8.5",
     "escpos": "^3.0.0-alpha.6",

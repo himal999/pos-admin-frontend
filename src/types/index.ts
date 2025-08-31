@@ -331,6 +331,21 @@ export interface ISupplierCreation {
   status: string;
 }
 
+export interface ISupplierRetunCreation{
+  grnId: number;
+  supplierId: number;
+  returnDate: string;
+  reason : string;
+  remark : string;
+  locationId: string;
+  username: string;
+  items: {
+    itemCode: string;
+    quantityReturned: number;
+    unitPrice: number;
+  }
+}
+
 export interface IItem {
   id: number;
   code: string;

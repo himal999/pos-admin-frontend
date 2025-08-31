@@ -1164,13 +1164,13 @@ function NewGRN() {
                     <div className="text-md w-[40%] px-2 text-primary">
                       Item Name
                     </div>
-                    <div className="flex w-[60%] justify-between px-2 text-[12px]">
-                      <span className="text-primary">Discount</span>
-                      <span className="text-primary">Lable Price</span>
-                      <span className="text-primary">Cost</span>
-                      <span className="text-primary">Sale Price</span>
-                      <span className="text-primary">Wholesale</span>
-                      <span className="text-primary">Quantity</span>
+                    <div className="flex w-[60%] justify-between px-2 text-[12px] dark:bg-gray-800">
+                      <span className="text-primary dark:text-white">Discount</span>
+                      <span className="text-primary dark:text-white">Lable Price</span>
+                      <span className="text-primary dark:text-white">Cost</span>
+                      <span className="text-primary dark:text-white">Sale Price</span>
+                      <span className="text-primary dark:text-white">Wholesale</span>
+                      <span className="text-primary dark:text-white">Quantity</span>
                     </div>
                   </div>
 
